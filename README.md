@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/207902fe-2e60-497b-9a79-1ddcb460b7ca)
 ### -> Multi-threaded Login brute-forcer with built-in CSRF token bypass
-This tool is designed to brute force logins and bypass CSRF token protection. It achieves this by automatically capturing the CSRF token before each login attempt.
+This tool is designed to brute force website's logins and bypass CSRF token protection. It achieves this by automatically capturing the CSRF token based on regex before each login attempt.
 
 ## Table of Contents
 - [Features](#features)
