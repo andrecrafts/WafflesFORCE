@@ -13,11 +13,14 @@ This tool is designed to brute force website's logins and bypass CSRF token prot
 
 
 ## Features
-- **Automatic CSRF Token Handling**: Automatically captures and uses CSRF tokens during brute force attempts.
-- **Multi-threading**: Utilizes multiple threads to increase the speed of brute force attempts.
-- **Flexible Configuration**: Supports custom regex patterns and parameter names for CSRF tokens.
-- **Status Code and Regex Matching**: Validates login attempts using customizable status codes and regex patterns.
-- **To be implemented**: Filter out based on status code and regex.
+- **Automatic CSRF handling** — fetches and extracts CSRF tokens (custom regex/param/url) and injects them per request.
+- **Multi-threaded** — parallelized login attempts (`--threads`) for higher throughput.
+- **Flexible inputs** — supports username/password wordlists or single values (`--users`, `--passwords`, `--user`, `--password`) and customizable POST body (`--data`).
+- **Match verification** — validate attempts via status-code ranges (`--match-status`) and response regex (`--match-regex`).
+- **Output & logging** — save results to file (`--output`) and enable verbose/debug output (`--verbose`).
+- **Transport control** — HTTP/S support with optional SSL verification toggle (`--verify`).
+- **Extensible config** — many options (CSRF regex/param/url, custom delimiter/data, etc.) for adapting to different login flows.
+- **Planned / not yet implemented** — query-parameter bruteforce (`--query`) and server-side filtering features.
 
 **Note:** Always open for feature/improvement suggestions.
 
