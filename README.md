@@ -102,4 +102,4 @@ python3 wafflesforce.py --host "https://web-security-academy.net/login" --data '
 ```
 
 ## Contact
-Created by [@WafflesExploits](https://wafflesexploits.github.io/about/) - I'm always open to features/improvement suggestions! You can reach me out on my socials :)
+Created by [@AndreCrafts](https://andrecrafts.com/about/) - I'm always open to features/improvement suggestions! You can reach me out on my socials :)
