@@ -20,7 +20,6 @@ This tool is designed to brute force website's logins and bypass CSRF token prot
 - **Output & logging** - save results to file (`--output`) and enable verbose/debug output (`--verbose`).
 - **Transport control** - HTTP/S support with optional SSL verification toggle (`--verify`).
 - **Extensible config** - many options (CSRF regex/param/url, custom delimiter/data, etc.) for adapting to different login flows.
-- **Planned / not yet implemented** - query-parameter bruteforce (`--query`) and server-side filtering features.
 
 **Note:** Always open for feature/improvement suggestions.
 
